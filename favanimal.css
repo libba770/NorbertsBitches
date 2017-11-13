@@ -1,0 +1,34 @@
+h1 {
+    font-size: 4em;
+    font-family: 'Poiret One', cursive;
+}
+img {
+    width: 50%;
+    margin-bottom: 60px;
+}
+.imageholder {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.image-holder{
+    display: flex;
+    flex-direction: column;
+}
+
+.image-with-caption{
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+}
+
+.image-with-caption .caption{
+    flex-grow: 1;
+}
+
+.image-with-caption img{
+    flex-grow: 1;
+    flex-shrink: 0;
+    display: block;
+}
