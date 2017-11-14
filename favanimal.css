@@ -1,3 +1,7 @@
+body {
+    margin: 2em 4em;
+}
+
 h1 {
     font-size: 4em;
     font-family: 'Poiret One', cursive;
@@ -28,7 +32,19 @@ img {
 }
 
 .image-with-caption img{
-    flex-grow: 1;
-    flex-shrink: 0;
-    display: block;
+    width: 100%;
+}
+.image-with-caption .image {
+    width: 50%;
+}
+
+.image-with-caption .caption h2 {
+    font-family: 'Shrikhand', cursive;
+    font-size: 2em;
+    margin-bottom: 0;
+}
+.image-with-caption .caption p {
+    font-family: 'PT+Sans+Caption', sans-serif;
+    font-size: large;
+    margin-top: .5em;
 }
